@@ -4,9 +4,23 @@ html {
   font-family: "Oswald", sans-serif;
 }
 
+body {
+  background-image: url(../images/BG_Drawing_full.png);
+  background-size: 1920px;
+}
+
 header {
-  width: 100%;
-  height: 120px;
+  /* width: 100%; */
+  width: 80%;
+  /* height: 120px; */
+  height: 106px;
+  margin: 0 auto;
+  z-index: 100;
+  position: relative;
+}
+
+.logo {
+  width: 136px;
 }
 
 .header-top {
@@ -15,28 +29,65 @@ header {
 }
 
 .header-top-content {
-  width: 1526px;
+  /* width: 1526px; */
   margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .header-bottom {
   width: 100%;
+  height: 65px;
+  display: flex;
+  text-align: center;
+  align-items: center;
   background-color: #fff;
-}
-
-.header-bottom {
-  width: 100%;
-  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 main {
   height: 3079px;
-  width: 1920px;
-  margin: auto;
-  background-image: url(../images/BG_Drawing_full.png);
-  background-size: 1920px;
+  /* width: 1920px; */
+  width: 80%;
+  margin: -15px auto 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
   font-family: "Roboto", sans-serif;
+  font-size: 19px;
+}
+
+footer {
+  width: 80%;
+  height: 120px;
+  margin: 0 auto;
+  z-index: 100;
+  position: relative;
+}
+
+.footer-top {
+  background-color: #cad8c0;
+  height: 367px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-bottom {
+  width: 100%;
+  height: 113;
+  background-color: #fff;
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+}
+
+.logo-bottom {
+  width: 388px;
+}
+
+.payment {
+  width: 196px;
+  height: 27.58px;
 }

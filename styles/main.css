@@ -59,6 +59,33 @@ h1 {
   font-size: 19px;
 }
 
+.arts-craft {
+  height: 100px;
+}
+
+.section-background {
+  background-image: url(../images/section_bkg.png);
+  height: 100px;
+}
+
+.arts-craft-head {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: medium;
+}
+
+.arts-link {
+  font-family: "Oswald", sans-serif;
+  font-size: 19px;
+  font-weight: medium;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: medium;
+}
+
 footer {
   width: 80%;
   height: 120px;

@@ -46,12 +46,14 @@ header {
 }
 
 main {
+  /* We can probably get rid of the main height to let the content dictate the container's height */
   height: 3079px;
   /* width: 1920px; */
   width: 80%;
   margin: -15px auto 0 auto;
   background-color: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  /* background-image: url(../images/section_bkg.png); */
 }
 
 h1 {
@@ -61,11 +63,13 @@ h1 {
 
 .arts-craft {
   height: 100px;
+  margin-top: 3.5em;
 }
 
 .section-background {
   background-image: url(../images/section_bkg.png);
-  height: 100px;
+  background-position: center;
+  background-size: cover;
 }
 
 .arts-craft-head {
@@ -80,14 +84,16 @@ h1 {
   font-weight: medium;
 }
 
-h2 {
+.section-header {
   font-family: "Roboto", sans-serif;
   font-size: 32px;
   font-weight: medium;
+  padding-top: 1em;
 }
 
 footer {
   width: 80%;
+  /* We can probably get rid of the footer height and let the content dictate the height of the element */
   height: 120px;
   margin: 0 auto;
   z-index: 100;
